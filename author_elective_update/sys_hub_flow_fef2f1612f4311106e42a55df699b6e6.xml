@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from>5b31f51c2f0315106e42a55df699b68a</copied_from>
+        <copied_from_name>NeedIt Fulfillment</copied_from_name>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>copy_of_needit_fulfillment</internal_name>
+        <label_cache>[{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.__dont_treat_as_error__","label":"2 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0843c194-8140-4e39-971c-4136b3892aba.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0843c194-8140-4e39-971c-4136b3892aba.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.record","label":"1 - Update Record➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.table_name","label":"1 - Update Record➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of NeedIt Fulfillment</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 19:15:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fef2f1612f4311106e42a55df699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of NeedIt Fulfillment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_fef2f1612f4311106e42a55df699b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 19:15:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_variable_value action="DELETE" query="document_key=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=fef2f1612f4311106e42a55df699b6e6^sys_idNOT IN3ef2f1612f4311106e42a55df699b6e7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>fef2f1612f4311106e42a55df699b6e6</id>
+        <name>Copy of NeedIt Fulfillment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 19:15:50</sys_created_on>
+        <sys_id>3ef2f1612f4311106e42a55df699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 19:15:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=3ef2f1612f4311106e42a55df699b6e7"/>
+    <sys_hub_flow_input action="DELETE" query="model=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_flow_output action="DELETE" query="model=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=fef2f1612f4311106e42a55df699b6e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>713821b0db494810b847ac44d49619df</instance_id>
+        <instance_name>dev94414</instance_name>
+        <name>sys_hub_flow_fef2f1612f4311106e42a55df699b6e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build><copied_from>5b31f51c2f0315106e42a55df699b68a</copied_from><copied_from_name>NeedIt Fulfillment</copied_from_name><description>Steps to approve and fulfill NeedIt requests.</description><internal_name>copy_of_needit_fulfillment</internal_name><label_cache>[{"name":"Created_1.current.u_requested_for.manager","label":"Trigger - Record Created➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.__dont_treat_as_error__","label":"2 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b6fca9b-b24f-49c4-a3f0-b67652b9cd88.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0843c194-8140-4e39-971c-4136b3892aba.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0843c194-8140-4e39-971c-4136b3892aba.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.record","label":"1 - Update Record➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.table_name","label":"1 - Update Record➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.__action_status__","label":"1 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc956bb0-e839-47ae-ac57-ef73b2126eb1.__dont_treat_as_error__","label":"1 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{}}]</label_cache><latest_snapshot/><master_snapshot/><name>Copy of NeedIt Fulfillment</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-08 19:15:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fef2f1612f4311106e42a55df699b6e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of NeedIt Fulfillment</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_fef2f1612f4311106e42a55df699b6e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-08 19:15:50</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=fef2f1612f4311106e42a55df699b6e6"/><sys_variable_value action="delete_multiple" query="document_key=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_trigger_instance action="delete_multiple" query="flow=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_flow_stage action="delete_multiple" query="flow=fef2f1612f4311106e42a55df699b6e6"/><sys_flow_cat_variable_model action="delete_multiple" query="id=fef2f1612f4311106e42a55df699b6e6^sys_idNOT IN3ef2f1612f4311106e42a55df699b6e7"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>fef2f1612f4311106e42a55df699b6e6</id><name>Copy of NeedIt Fulfillment</name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-08 19:15:50</sys_created_on><sys_id>3ef2f1612f4311106e42a55df699b6e7</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-08 19:15:50</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3ef2f1612f4311106e42a55df699b6e7"/><sys_hub_flow_input action="delete_multiple" query="model=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_flow_output action="delete_multiple" query="model=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_action_instance action="delete_multiple" query="flow=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_flow_logic action="delete_multiple" query="flow=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=fef2f1612f4311106e42a55df699b6e6"/><sys_hub_flow_variable action="delete_multiple" query="model=fef2f1612f4311106e42a55df699b6e6"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fef2f1612f4311106e42a55df699b6e6"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fef2f1612f4311106e42a55df699b6e6"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fef2f1612f4311106e42a55df699b6e6"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fef2f1612f4311106e42a55df699b6e6"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=fef2f1612f4311106e42a55df699b6e6"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=fef2f1612f4311106e42a55df699b6e6"/></record_update>]]></payload>
+        <payload_hash>2057214018</payload_hash>
+        <record_name>Copy of NeedIt Fulfillment</record_name>
+        <reverted_from/>
+        <source>ca2ae5e12f0311106e42a55df699b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 19:15:50</sys_created_on>
+        <sys_id>f2f2f1612f4311106e42a55df699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18458ab96360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 19:15:50</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>3ef2f161774311107676d863d430c9f9</update_guid>
+        <update_guid_history>3ef2f161774311107676d863d430c9f9:2057214018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 19:18:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>5c86c7735c614c408f3297e6248b5900</sys_id>
+        <sys_metadata>fef2f1612f4311106e42a55df699b6e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_fef2f1612f4311106e42a55df699b6e6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_fef2f1612f4311106e42a55df699b6e6">f2f2f1612f4311106e42a55df699b6fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 19:18:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
